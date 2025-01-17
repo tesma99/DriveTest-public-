@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+    
+    <!-- Hop 1 -->
+		<Placemark>
+			<name>Hop 1: 91.37.80.60</name>
+			<Point>
+				<coordinates>8.2791,49.9842,0</coordinates>
+			</Point>
+		</Placemark>
+  
+    <!-- Hop 2 bis 9 -->
+		<Placemark>
+			<name>Hop 2 bis 9</name>
+      <description>
+        Hop 2: 62.155.246.63
+        Hop 3: 62.154.16.118
+        Hop 4: 62.154.16.118
+        Hop 5: 80.156.160.118
+        Hop 6: 142.250.239.67
+        Hop 7: 216.239.43.250
+        Hop 8: 142.251.227.123
+        Hop 9: 192.178.75.100
+      </description>
+			<Point>
+				<coordinates>8.6842,50.1155,0</coordinates>
+			</Point>
+		</Placemark>
+    
+    <!-- Hop 10 -->
+		<Placemark>
+			<name>Hop 10: 192.178.45.194</name>
+			<Point>
+				<coordinates>13.5037,52.389,0</coordinates>
+			</Point>
+		</Placemark>
+    
+    <!-- Hop 11 bis 13 -->
+		<Placemark>
+			<name>Hop 11 bis 13</name>
+      <description>
+        Hop 11: 192.178.106.77
+        Hop 12: 142.251.241.85
+        Hop 13: 142.251.143.67
+      </description>
+
+			<Point>
+				<coordinates>13.4105,52.5244,0</coordinates>
+			</Point>
+		</Placemark>
+    
+    <!-- Path -->
+    <Placemark>
+      <name>Traceroute Path</name>
+      <LineString>
+        <extrude>1</extrude>
+        <coordinates>
+          8.2791,49.9842,0 8.6842,50.1155,0 13.5037,52.389,0 13.4105,52.5244,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+	</Document>
+</kml>
